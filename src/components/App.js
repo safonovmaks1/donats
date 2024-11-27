@@ -38,6 +38,6 @@ export class App extends Component {
 		this.state.donates.push(item);
 		this.donateList.addItem(item);
 
-		this.$total.textContent = this.state.total + amount;
+		this.$total.textContent = this.state.total += amount;
 	}
 }
